@@ -1,0 +1,143 @@
+body, input, button {
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #222;
+}
+
+.container {
+    width:1170px;
+    margin:0 auto;
+}
+  
+button{
+    cursor: pointer;
+    border:none;
+    background-color: #fff;
+}
+
+/* menu bar */
+.menu-bar {
+
+    height:60px;
+}
+.right-menu{
+    display:flex;
+    flex-flow: row wrap ;
+    justify-content: flex-end;
+    align-items: center;
+    margin:12px;
+}
+
+.right-menu li{
+    padding:0 12px;
+}
+
+.right-menu img{
+    border-radius: 50%;
+}
+
+.right-menu a:hover{
+    padding-bottom:0.5px;
+    border-bottom: 1px solid #222;
+}
+
+/* main element */
+.main-element{
+    text-align: center;
+    padding: 8px 0;
+}
+
+.logo{
+    margin-bottom:24px;
+}
+
+.search-bar{
+    margin:24px auto;
+    border:1px rgb(210, 209, 221) solid;
+    width:560px;
+    border-radius: 25px;
+}
+
+.search-bar:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.search-bar input{
+    width:450px;
+    padding:16px;
+    outline:none;
+    border:none;
+}
+.search-bar button{
+    color: #CCCFD2;
+    cursor:default;
+}
+.btn-google a{
+    margin-right:8px;
+    padding: 10px 16px;
+    display: inline-block;
+    border: 0px solid grey;
+    border-radius: 3px;
+    background-color:rgba(231, 231, 231, 0.589);
+}
+
+.btn-google a:hover{
+    background-color:rgba(231, 231, 231, 1);
+}
+
+.extra-credits {
+    font-size:12px;
+    display: inline-block;
+}
+
+.extra-credits a{
+    font-size:12px;
+    color:#4163C8;
+    margin-left:8px;
+}
+
+.extra-credits, .btn-google, .search-bar{
+    margin-bottom:24px;
+}
+
+footer{
+    width:100%;
+    margin-top: 100px;
+    position: fixed;
+    bottom: 0;
+}
+
+.location{
+    height:48px;
+    background-color: #F2F2F2;
+    color:#887988;
+    padding:16px 32px;
+}
+
+.footer-menu{
+    height: 46px;
+    background-color: #F2F2F2;
+    padding:0 16px;
+    border: 1px solid #DADCE0;
+
+}
+
+.footer-menu a{
+    color:#887988;
+    font-size:14px;
+}
+
+.footer-menu a:hover{
+    padding-bottom:0.5px;
+    border-bottom: 1px solid #887988;
+}
+
+.footer-left li{
+    float:left;
+    padding:16px;
+}
+
+.footer-right li{
+    float:right;
+    padding:16px;
+}
